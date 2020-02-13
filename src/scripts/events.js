@@ -50,7 +50,7 @@ const eventHandlers = {
         const numberId = Number(entryId)
         document.querySelector(".interestBlog").removeEventListener("click", this.deleteOrEditBlogPost)
         document.querySelector(".blogButton").removeEventListener("click", this.postToBlog)
-        editBlogPost(numberId)
+        addToDOM.renderEditPage(numberId)
     }
 }
 };
