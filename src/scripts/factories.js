@@ -105,8 +105,10 @@ const htmlStuff = {
     },
 
     myBlog: document.querySelector(".interestBlog"),
+    
     dynamicButtons: document.querySelector("#buttonArea"),
-    myDefaultForm: document.querySelector("#pointForm")
+    
+    myForm: document.querySelector("#pointForm")
 
 }
 
